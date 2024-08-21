@@ -1,0 +1,47 @@
+.modal-contentedges .input-outside-table {
+    width: 50%;
+    max-width: 800px;
+}
+
+.modal-contentedges .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-contentedges .button-container button {
+    margin: 10px;
+}
+
+.modal-contentedges .input-with-tooltip {
+    position: relative;
+}
+
+.modal-contentedges .input-with-tooltip input[type="text"]:hover::before {
+    border: 1px black;
+    content: attr(title);
+    position: absolute;
+    color: black;
+    background-color: #f2f2f2;
+    padding: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    max-width: none;
+    max-height: none;
+    overflow-y: visible;
+    z-index: 1;
+    top: 100%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.modal-contentedges .centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-contentedges .centered-form label,
+.modal-contentedges .centered-form input {
+    display: inline-block;
+}

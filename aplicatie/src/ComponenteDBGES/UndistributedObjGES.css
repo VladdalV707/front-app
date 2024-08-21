@@ -1,0 +1,12 @@
+.modal-content-uo-ges {
+    width: 100%;
+}
+
+.modal-content-uo-ges .custom-table {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    overflow-y: auto;
+    max-height: 100vh;
+}

@@ -1,0 +1,155 @@
+.printable-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 800px;
+  background-color: transparent;
+}
+
+.printable-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.printable-content th.column1,
+.printable-content td.column1 {
+  width: 15%;
+  text-align: center;
+  border: 1.5px solid black;
+  padding: 8px;
+}
+
+.printable-content th.column2,
+.printable-content td.column2 {
+  width: 50%;
+  text-align: left;
+  border: 1.5px solid black;
+  padding: 8px;
+}
+
+.printable-content th.column3,
+.printable-content td.column3 {
+  width: 20%;
+  text-align: center;
+  border: 1.5px solid black;
+  padding: 8px;
+}
+
+.printable-content th.column4,
+.printable-content td.column4 {
+  width: 15%;
+  text-align: center;
+  border: 1.5px solid black;
+  padding: 8px;
+}
+
+.printable-content th {
+  background-color: lightgrey;
+}
+
+.printable-content .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.printable-content .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.printable-content .subtitle {
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+
+.printable-content .magazie {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.printable-content .gestiune {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.printable-content .data {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.printable-content .intocmit-de {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.printable-content .intocmit-primit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.printable-content .primit-de {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.printable-content .empty {
+  height: 50px;
+}
+
+.printable-content .empty2 {
+  height: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  margin: 0 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.button-container button {
+  cursor: pointer;
+}
+
+.button-container button {
+  outline: none;
+}
+
+.printable-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.printable-content thead {
+  border: 1.5px solid black;
+}
+
+.printable-content tbody {
+  border: 1.5px solid black;
+}
+
+.printable-content tr {
+  border: 1.5px solid black;
+}
+
+.printable-content th {
+  background-color: lightgrey;
+  border-bottom: 1.5px solid black;
+  padding: 8px;
+}
+
+.printable-content td {
+  padding: 8px;
+}

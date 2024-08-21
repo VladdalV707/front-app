@@ -1,0 +1,29 @@
+.react-datepicker__input-container {
+    display: inline-block !important;
+    position: relative !important;
+    width: 100% !important;
+  }
+  
+  .react-datepicker__close-icon {
+    position: absolute !important;
+    top: 50% !important;
+    right: 70% !important; /* adjust this value to position the icon */
+    transform: translateY(-50%) !important;
+    cursor: pointer !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    color: gray !important;
+  }
+  
+  .react-datepicker__close-icon::after {
+    background-color: gray !important;
+}
+
+  .react-datepicker__close-icon::before {
+    background-color: transparent !important;
+  }
+
+  .react-datepicker__close-icon:hover {
+    background-color: transparent !important;
+  }
+  

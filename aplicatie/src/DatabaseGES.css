@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'UT Sans', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.table-wrapper {
+    width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 0px;
+    table-layout: fixed;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    display: table-header-group;
+    height: 50px;
+    margin: 0;
+}
+
+th {
+    top: 0px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    max-width: 300px;
+    width: 20%;
+}
+
+td {
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.outer-wrapper {
+    border: 2px solid black;
+    box-shadow: 0px 0px 4px black;
+    width: 100%;
+    margin: 25px;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+
+.button {
+    font-size: 15px;
+    padding: 4px 8px;
+    text-align: left;
+    border: 1.5px solid rgb(119, 116, 121);
+    border-collapse: collapse;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+button {
+    font-size: 15px;
+    padding: 4px 8px;
+    text-align: left;
+    border: 1.5px solid rgb(119, 116, 121);
+    border-collapse: collapse;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+input {
+    font-family: 'UT Sans', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.input-outside-table {
+    font-family: 'UT Sans', sans-serif;
+    font-size: 16px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+
+.btn-group .button {
+    background-color: grey;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.ButonTest {
+    font-size: 20px;
+    padding: 8px 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* CSS For BucPopUp+DesPopUp+BMPopUp */
+
+.obiect-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obiect-cell button {
+    margin-left: 10px;
+}
+
+/*CSS for Pagination Selector*/
+
+.select-page-size {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

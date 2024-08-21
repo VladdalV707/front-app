@@ -1,0 +1,52 @@
+<dotnetnuke type="Package" version="5.0">
+<packages><package name="gestiune-mijloace-fixe-frontend" type="Module" version="1.0.1">
+<friendlyName>G estiune Mijloace Fixe Frontend</friendlyName>
+<description />
+<owner>
+<name />
+<organization />
+<url />
+<email />
+</owner>
+<license />
+<releaseNotes />
+<components>
+<component type="ResourceFile">
+<resourceFiles>
+<basePath>DesktopModules/gestiune-mijloace-fixe-frontend</basePath>
+<resourceFile>
+<name>Resources.zip</name>
+</resourceFile>
+</resourceFiles>
+</component>
+<component type="Module">
+<desktopModule>
+<moduleName>gestiune-mijloace-fixe-frontend</moduleName>
+<foldername>gestiune-mijloace-fixe-frontend</foldername>
+<businessControllerClass />
+<supportedFeatures />
+<shareable>Supported</shareable>
+<moduleDefinitions>
+<moduleDefinition>
+<friendlyName>gestiune-mijloace-fixe-frontend</friendlyName>
+<definitionName>gestiune-mijloace-fixe-frontend</definitionName>
+<defaultCacheTime>0</defaultCacheTime>
+<moduleControls>
+<moduleControl>
+<controlKey />
+<controlSrc>DesktopModules/gestiune-mijloace-fixe-frontend/index.html</controlSrc>
+<supportsPartialRendering>True</supportsPartialRendering>
+<controlTitle />
+<controlType>Anonymous</controlType>
+<iconFile />
+<helpUrl />
+<supportsPopUps>True</supportsPopUps>
+</moduleControl>
+</moduleControls>
+</moduleDefinition>
+</moduleDefinitions>
+</desktopModule>
+</component>
+</components>
+</package></packages>
+</dotnetnuke>

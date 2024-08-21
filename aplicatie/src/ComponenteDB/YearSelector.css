@@ -1,0 +1,12 @@
+/* Add button class and center them */
+.modal-content-ys .button-container {
+    /* Center buttons */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    /* Add top margin */
+}
+
+.modal-content-ys .button-container button {
+    margin: 10px;
+}

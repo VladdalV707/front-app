@@ -1,0 +1,94 @@
+.modal-content-bm {
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal-content-bm .custom-table {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    overflow-y: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.modal-content-bm .custom-table .tr,
+.modal-content-bm .custom-table .td,
+.modal-content-bm .custom-table .th,
+.modal-content-bm .thead {
+    width: 100%;
+}
+
+.modal-content-bm .custom-table .th,
+.modal-content-bm .custom-table .td {
+    width: 100%;
+}
+
+.modal-content-bm .custom-table .tbody {
+    width: 100%;
+}
+
+.modal-content-bm .custom-table .tbody .tr {
+    width: 100%;
+}
+
+.modal-content-bm .custom-table .tbody .tr .td {
+    width: 100%;
+}
+
+.modal-content-bm .custom-table .tbody .tr .td .custom-table {
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal-content-bm .custom-table .td,
+.modal-content-bm .custom-table .th {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+.modal-content-bm .custom-table .td {
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+    white-space: nowrap;
+}
+
+.modal-content-bm.custom-table .thead>.tr:last-child>.th {
+    border-bottom: 1.5px solid black;
+}
+
+.modal-content-bm .custom-table .th {
+    font-weight: bold;
+}
+
+.modal-content-bm .modal-content {
+    border: 1.5px solid black;
+}
+
+.modal-content-bm .custom-table .th,
+.modal-content-bm .custom-table .td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.modal-content-bm .thead {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+.modal-content-bm .tr {
+    display: flex;
+}
+
+.modal-content-bm .th,
+.modal-content-bm .td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    flex: 1;
+}
+
+.modal-content-bm .td {
+    flex-basis: 0;
+}

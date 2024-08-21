@@ -1,0 +1,117 @@
+.drawer-overlayoi {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semi-transparent gray */
+    z-index: 9998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.drawer-containeroi {
+    position: fixed;
+    top: 0;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    transition: transform 0.35s;
+    right: -35%;
+    transform: translateX(100%);
+}
+
+.drawer-headeroi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(30, 22, 22);
+}
+
+.drawer-contentoi {
+    padding: 10px;
+}
+
+.drawer-containeroi.drawer-open {
+    transform: translateX(0);
+    right: 0;
+    opacity: 1;
+    overflow: auto;
+}
+
+.drawer-containeroi.drawer-open::-webkit-scrollbar {
+    width: 3px;
+}
+
+.drawer-containeroi.drawer-open::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.drawer-containeroi.drawer-open::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+
+.drawer-overlayoi.drawer-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.drawer-contentoi .drawer-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.drawer-contentoi .drawer-table thead {
+    display: table-header-group;
+    background-color: #f1f1f1;
+}
+
+.drawer-contentoi .drawer-table tbody {
+    display: table-row-group;
+}
+
+.drawer-contentoi .drawer-table th,
+.drawer-contentoi .drawer-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.drawer-contentoi .drawer-table td {
+    white-space: nowrap;
+}
+
+.drawer-contentoi .drawer-table th {
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+/* .drawer-contentoi .drawer-table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.2s ease-in-out;
+}
+
+.drawer-contentoi .drawer-table td:hover {
+    overflow: visible;
+    white-space: normal;
+    z-index: 1;
+    max-width: unset;
+    transition: all 0.2s ease-in-out;
+    transition-delay: 2s;
+    background-color: #f9f9f9;
+} */

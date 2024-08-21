@@ -1,0 +1,8 @@
+.modal-content-ges {
+    background-color: white;
+    border-radius: 10px;
+    max-height: 90%;
+    overflow: auto;
+    width: 100%;
+    max-width: 1200px;
+}

@@ -1,0 +1,118 @@
+/* Modify input width */
+.modal-content-dp .input-outside-table {
+    width: 90%;
+    max-width: 800px;
+    /* Change this to your desired max-width */
+}
+
+/* Add button class and center them */
+.modal-content-dp .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content-dp .button-container button {
+    margin: 10px;
+}
+
+.modal-content-dp .input-with-tooltip {
+    position: relative;
+}
+
+.modal-content-dp .input-with-tooltip input[type="text"]:hover::before {
+    border: 1px black;
+    content: attr(title);
+    position: absolute;
+    color: black;
+    background-color: #f2f2f2;
+    padding: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    max-width: none;
+    max-height: none;
+    overflow-y: visible;
+    z-index: 1;
+    top: 100%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.modal-content-dp {
+    text-align: justify;
+}
+
+
+.modal-content-dp form {
+    width: 100%;
+}
+
+.modal-content-dp .form-section {
+    margin-left: 55%;
+    transform: translateX(-50%);
+}
+
+
+
+.modal-content-dp .readonly label,
+.modal-content-dp .autocomplete label {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+
+.modal-content-dp .readonly .input-outside-table,
+.modal-content-dp .autocomplete .input-outside-table-g,
+.modal-content-dp .autocomplete .input-outside-table {
+    display: block;
+    width: 70%;
+}
+
+
+.modal-content-dp .autocomplete ul {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 2px solid transparent;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 60%;
+    max-width: 60%;
+    top: 36.5%;
+    left: calc(70% + 5px);
+}
+
+.modal-content-dp .autocomplete ul li {
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px solid transparent;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+
+.modal-content-dp .autocomplete ul li:first-child {
+    border-top: 2px solid black;
+}
+
+.modal-content-dp .autocomplete ul li:last-child {
+    border-bottom: 2px solid black;
+}
+
+.modal-content-dp .autocomplete ul li:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+.modal-content-dp .autocomplete li:first-child {
+    border-top: 1px solid lightgray;
+}
+
+.modal-content-dp .autocomplete li:last-child {
+    border-bottom: none;
+}
